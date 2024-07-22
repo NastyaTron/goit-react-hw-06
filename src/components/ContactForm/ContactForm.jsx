@@ -12,7 +12,7 @@ const UserSchema = Yup.object().shape({
     .max(50, "Too long!")
     .required("Required"),
 });
-import css from "./ContactsForm.module.css";
+import css from "./ContactForm.module.css";
 
 export default function ContactForm() {
   const dispatch = useDispatch();
